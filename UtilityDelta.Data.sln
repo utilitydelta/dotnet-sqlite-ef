@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityDelta.Data", "UtilityDelta.Data\UtilityDelta.Data.csproj", "{72BD329A-1160-4957-A7E6-6D8A325DF044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityDelta.Data.TestCli", "UtilityDelta.Data.TestCli\UtilityDelta.Data.TestCli.csproj", "{4F90ED0B-BFDB-421B-9CE9-5A421BC8C33B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72BD329A-1160-4957-A7E6-6D8A325DF044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BD329A-1160-4957-A7E6-6D8A325DF044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BD329A-1160-4957-A7E6-6D8A325DF044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BD329A-1160-4957-A7E6-6D8A325DF044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F90ED0B-BFDB-421B-9CE9-5A421BC8C33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F90ED0B-BFDB-421B-9CE9-5A421BC8C33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F90ED0B-BFDB-421B-9CE9-5A421BC8C33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F90ED0B-BFDB-421B-9CE9-5A421BC8C33B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CFFC412-56F5-4153-8C0B-8E8E13758285}
+	EndGlobalSection
+EndGlobal

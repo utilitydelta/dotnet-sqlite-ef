@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="UpgradeScripts\1.sql" />
+    <None Remove="UpgradeScripts\2.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="UpgradeScripts\1.sql" />
+    <EmbeddedResource Include="UpgradeScripts\2.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.4" />
+  </ItemGroup>
+
+</Project>
